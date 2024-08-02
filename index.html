@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="xxxxx标题">
+    <meta property="og:image" content="./img/mer2023.jpg">
+    <meta property="og:type" content="website">
+    
+    <title>
+       xxxxx标题
+    </title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="./css/agency.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="./css/font-awesome.min.css" rel="stylesheet" >
+    <link href="./css/style.css" rel="stylesheet">
+    <!-- <link href="./css/css(1)" rel="stylesheet" type="text/css">
+    <link href="./css/css(2)" rel="stylesheet" type="text/css">
+    <link href="./css/css(3)" rel="stylesheet" type="text/css"> -->
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script type="text/javascript" async="" src="./js/analytics.js"></script>
+    <script async="" src="./js/js"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'UA-114495477-1');
+    </script>
+
+
+</head>
+
+<body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden active">
+                        <a href="https://MER2024.github.io/"></a>
+                    </li>
+                    <li class="">
+                        <a class="page-scroll" href="#HOME">HOME</a>
+                    </li>
+					<li>
+                        <a class="page-scroll" href="#TSE">Track Setting and Evaluation</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#Dataset">Dataset</a>
+                    </li>
+					<li>
+                        <a class="page-scroll" href="#Rules">Rules</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#Registration">Registration</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#Baseline System">Baseline System</a>
+                    </li>
+					
+					<li>
+					    <a class="page-scroll" href="#Paper Submission">Paper Submission</a>
+					</li>
+					
+					<li>
+					    <a class="page-scroll" href="#Timeline">Timeline (AOE Time)</a>
+					</li>
+					
+                    <li>
+                        <a class="page-scroll" href="#organization">Organizers</a>
+                    </li>
+                  
+                   
+                </ul>
+            </div>
+        </div>
+    </nav> 
+
+    <!-- Header -->
+    <header_3>
+        <div class="container">
+            <div class="intro-text" style="color:white;">
+                <br>        
+                <div class="intro-heading">MER24@IJCAI and MRAC24@ACM MM</div>
+                <br><br>
+                <br><br>                
+                <div class="intro-heading-large">Multimodal Emotion</div>
+                <br><br> 
+                <div class="intro-heading-large">Recognition</div>
+                <br><br> 
+                <br><br>              
+                <div class="intro-heading"> Semi-Supervised Learning, Noise Robustness, and Open-Vocabulary Emotion Recognition</div>
+                <br><br>
+            </div>
+        </div>
+    </header_3>
+
+    <!-- HOME Section -->
+    <section id="HOME" style="padding-top: 30px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                </div>
+            </div>
+            <div class="row text-justify">
+                <div class="col-md-12" >
+					
+					<h2>Call for Participation</h2>
+                    <p class="large text-muted ">
+						As human-machine dialogue systems gradually become part of daily life, high emotional intelligence and humanized dialogue technology have become more desirable. Understanding human intents while providing emotional support and feedback is now a hot topic in current research. Traditionally, emotion recognition and intent recognition in dialogue systems are performed separately. However, using these technologies in isolation has certain limitations. Emotion recognition may fail to accurately determine user intents, making it difficult for interaction systems to meet user needs effectively; meanwhile, intent recognition might overlook the user's emotional state, failing to provide emotional value. Therefore, research on joint emotion and intent recognition has significant theoretical and practical value.
+                    </p>
+					
+					<p class="large text-muted ">
+						<b>The Multimodal Emotion and Intent Joint Understanding (MEIJU) </b> aims to decode the semantic information expressed in the history of multimodal dialogue while inferring the current dialogue’s emotions and intents, providing users with a more humanized human-machine interaction experience. Unlike traditional tasks of emotion recognition and intent recognition, the MEIJU task faces unique challenges. Firstly, multimodal dialogues often involve various data forms such as speech, text, and images. Effectively integrating and modeling these different types of information to fully understand user needs and emotional states is a challenge that must be overcome. Secondly, the interaction between emotions and intents is complex. Existing studies indicate that the emotions expressed by speakers convey specific intents, which are responded to in an empathetic manner. Capturing and modeling the complex relationships between emotions and intents in the model is an urgent problem to be addressed. In summary, leveraging the intricate relationship between emotions and intents to achieve effective joint understanding is an important research topic.
+					</p>
+					
+					<p class="large text-muted ">
+						Recent challenges have targeted multimodal emotion recognition to develop robust solutions across various scenarios.
+						The MuSe (Multimodal Sentiment Analysis Challenge) 2023 addressed three contemporary problems: Mimicked Emotions, Cross-Cultural Humour, and Personalisation. The EmotiW (Emotion Recognition in the Wild Challenge) 2023 focused on predicting engagement levels and perceived emotional health states in group dialogues within real-world scenarios. The MER (Multimodal Emotion Recognition) 2023 challenge explored effective methods through three tracks: multi-label learning, modality robustness, and semi-supervised learning.
+						For intent recognition, large-scale datasets such as MIntRec and the Behance Intent Discovery dataset have been created, allowing researchers to investigate effective intent recognition methods. Despite the extensive research on emotion and intent recognition, there remains a significant gap in work focusing on the joint recognition of multimodal emotion and intent. Additionally, there is a scarcity of large open datasets annotated with both emotion and intent categories.
+					</p>
+					
+					<p class="large text-muted ">To enhance user experience in human-machine interaction and accelerate the development of multimodal emotion and intent recognition tasks, we are launching the ICASSP 2025 Multimodal Emotion and Intent Recognition Challenge.</p>
+					
+					<p class="large text-muted ">We have designed two tracks to address the major challenges faced in real life.
+We warmly welcome researchers from academia and industry to participate and jointly explore reliable solutions for these challenging scenarios.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+<!-- Call for Papers Section -->
+<section id="TSE" class="bg-mid-gray">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Track Setting and Evaluation</h2>
+            </div>
+        </div>
+        <div class="text-left" style="text-align: center;">
+            <div class="row text-justify">
+                <div class="col-md-12">
+					<h3>Track Setting</h3>
+            		<p class="large text-muted">
+                        <b>Track 1: Low-Resource Multimodal Emotion and Intent Recognition.</b> 
+						Collecting a large number of samples with emotion and intent labels is very challenging, which poses a significant barrier to the development of multimodal emotion and intent joint recognition.
+						    To address this issue, researchers typically focus on methods such as data augmentation to train robust models with limited data.
+						    Additionally, a large amount of unlabeled data can be introduced to improve model performance based on semi-supervised or unsupervised learning methods.
+						    Therefore, we propose the Low-Resource Multimodal Emotion and Intent Recognition Challenge to encourage participants to improve model performance through data augmentation or the design of semi-supervised methods.
+                    </p>
+            		
+                    <p class="large text-muted">
+                        <b>Track 2: Imbalanced Emotion and Intent Recognition.</b>
+						In real life, the probabilities of people expressing different emotions or intents are not equal. For example, in peaceful everyday life, people are more inclined to express neutral or positive emotions (such as happiness or joy), while the probability of expressing negative emotions (such as anger or disgust) is lower. Therefore, the issue of category imbalance becomes a common and challenging scenario in real life. We set up a track focusing on the Category Imbalance problem, encouraging participants to propose interesting algorithms and model structures to improve the recognition performance of systems in situations with imbalanced categories.
+                    </p>
+					
+					<h3>Evaluation Metrics</h3>
+					<p class="large text-muted">
+						For different tracks, we have chosen to use different evaluation metrics:
+					</p>
+					
+					<p class="large text-muted">
+					    <b>Track 1:</b> We choose the Weighted Average F-score (WAF), a metric widely used in emotion recognition, as the evaluation metric of emotion and intent recognition.
+					</p>
+					
+					<p class="large text-muted">
+					    <b>Track 2: </b> Due to the category imbalance issue in Track 2, we choose to use the micro F-score instead of the WAF as the evaluation metric.
+Unlike the WAF, the micro F-score treats all samples from all categories as equally important, thereby not being affected by category imbalance.
+This is particularly useful for evaluating category imbalance issues and can better reflect overall performance. 
+						Considering that our task involves joint recognition of emotions and intents, we additionally designed new evaluation metrics for all tracks, Joint Recognition Balance Metrics (JRBM), to balance the performance of both tasks:
+					</p>
+					
+					<img src="img/icassp2024/gs1-v2.png" alt="" style="width: 100%;">
+					
+					<p class="large text-muted">
+						where M is the metric of corresponding tracks, WAF or micro F-score.
+						The JRBM is used to save the best model and as the final ranking.
+						In addition, we will report the performances of emotion recognition and intent recognition separately in the final results.
+					</p>
+				</div>
+			</div>
+        </div>
+    </div>
+</section>	
+	
+	
+<!-- Call for Papers Section -->
+<section id="Dataset">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Dataset</h2>
+                <!-- <h3 class="section-subheading text-muted" style="font-size:large">Contact with us: <a href="mailto:fl4pwsdm@gmail.com">fl4pwsdm@gmail.com</a></h3> -->
+            </div>
+        </div>
+        <div class="row text-justify">
+            <div class="col-md-12">
+            
+			<p class="large text-muted">
+				To support research on multimodal emotion and intent joint understanding, we previously introduced the MC-EIU dataset [1]. This dataset consists of 4,970 conversational video clips from 3 English and 4 Chinese TV series, including genres such as comedy, drama, family, etc., offering dialogue scenarios closely related to the real world [2]. It comprises annotations for 7 emotions and 9 intents, encompassing textual, acoustic, and visual modalities, in a total of 45,009 English utterances and 11,003 Mandarin utterances. To illustrate the annotation quality of the MC-EIU dataset, we present Fleiss’s Kappa coefficients (κ) for MC-EIU alongside several related datasets in Table 1. The table illustrates that the κ of MC-EIU is at a high level and is either higher or comparable to that of the other datasets. This provides compelling evidence that the annotations of MC-EIU are reliable and accurate. For more detailed information about the MC-EIU dataset, please refer to the [1].
+				For the different tracks, we have performed a more detailed division of the dataset for participants to use:
+			</p>	
+				
+			<p class="large text-muted">
+			    <b>Track 1:</b> For Track 1, we select several labeled data points from the MC-EIU dataset to construct the category-balanced subset, which will be used for training and validation of model performance.
+Specifically, we retained all the data from the category with the fewest samples in the MC-EIU dataset and randomly selected an equal amount of data from the categories with a larger number of samples. These combined data form the balanced subset used for this track.
+Additionally, we provide a large amount of unlabeled data for participants to use, aiming to explore more effective unsupervised or semi-supervised learning strategies.
+We divide the labeled data into training, validation, and test sets in the ratio of 7:1:2. We use a stratified sampling method to ensure that each set is representative of the overall category distribution.
+The categories in each set are relatively well-balanced, and the number of samples in different categories does not vary greatly. In addition, the unlabeled data will be included in the training set.
+			</p>	
+				
+			<p class="large text-muted">
+			    <b>Track 2:</b> In Track 2, we emphasize the issue of category imbalance in real-life scenarios.
+				Therefore, we use the MC-EIU dataset as the dataset for this track. By utilizing this imbalanced dataset, we hope participants can propose effective methods to enhance the attention and recognition capabilities of models toward minority categories.
+				Similarly, we partition the dataset into training, validation, and test sets in the ratio of 7:1:2. The dataset for each track contains both English and Mandarin languages.
+Each language dataset represents a sub-track.
+Participants can choose to challenge one of the sub-tracks or multiple sub-tracks simultaneously. All participants in the Challenge are required to download the End User License Agreement (EULA), fill it out, and send it to our email address (after the Challenge is released, we will designate an explicit email address to receive applications from participants) to access the data.
+In the case of team entries, one application will suffice.
+We will review each participant's application and contact them promptly.
+The EULA requires participants to use this dataset for academic research only and not to edit or upload samples to the Internet.
+			</p>
+			
+			<div style="text-align: center;"><img src="img/icassp2024/table1-v2.png" style="width: 35%;"></div>
+			
+			<div style="text-align: center;">Table 1: Comparison of Fleiss’s Kappa coefficients between MC-EIU and other datasets.</div>
+			
+			
+			<p class="text-muted" style="margin-top: 30px;">
+				[1] Rui Liu, Haolin Zuo, Zheng Lian, Xiaofen Xing, Bj ̈orn W Schuller, and Haizhou Li. Emotion and intent joint
+understanding in multimodal conversation: A benchmarking dataset. arXiv preprint arXiv:2407.02751, 2024.
+				<br>
+			    [2] inming Zhao, Tenggan Zhang, Jingwen Hu, Yuchen Liu, Qin Jin, Xinchao Wang, and Haizhou Li. M3ed: Multi-modal multi-scene multi-label emotional dialogue database. In Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pages 5699–5710, 2022.
+			    <br>
+			    [3] Carlos Busso, Murtaza Bulut, Chi-Chun Lee, Abe Kazemzadeh, Emily Mower, Samuel Kim, Jeannette N Chang,
+Sungbok Lee, and Shrikanth S Narayanan. Iemocap: Interactive emotional dyadic motion capture database. Language
+resources and evaluation, 42:335–359, 2008.
+			    
+			    <br>
+			    [4] Soujanya Poria, Devamanyu Hazarika, Navonil Majumder, Gautam Naik, Erik Cambria, and Rada Mihalcea. Meld: A
+multimodal multi-party dataset for emotion recognition in conversations. In Proceedings of the 57th Annual Meeting
+of the Association for Computational Linguistics, pages 527–536, 2019.
+				
+			    <br>
+			    [5] Anuradha Welivita, Yubo Xie, and Pearl Pu. Fine-grained emotion and intent learning in movie dialogues. arXiv
+preprint arXiv:2012.13624, 2020.
+6
+
+			</p>		
+			
+            </div>
+			
+		
+			
+        </div>
+		
+		
+    </div>
+</section>
+
+
+<section id="Rules" class="bg-mid-gray">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Rules</h2>
+                <!-- <h3 class="section-subheading text-muted" style="font-size:large">Contact with us: <a href="mailto:fl4pwsdm@gmail.com">fl4pwsdm@gmail.com</a></h3> -->
+            </div>
+        </div>
+        <div class="row text-justify">
+            <div class="col-md-12" >
+				<ul>
+					<li style="font-size: 20px;">
+						<b>Use of Dataset:</b> The datasets prepared for each track are intended for use only in their respective tracks. Furthermore, during the competition, the validation set provided is strictly for evaluating the performance of models and cannot be used for training purposes.
+					</li>
+					
+					<li style="font-size: 20px;">
+						<b>Result Submission:</b> The annotations for all the test sets we release are invisible to the participants. Participants need to use their trained models to make predictions on the test set and submit the prediction results to CodaLab.
+					</li>
+					
+					<li style="font-size: 20px;">
+						<b>Frequency of Submission:</b> For each track, participants can submit their results no more than 3 times a day. 
+					</li>
+					
+					<li style="font-size: 20px;">
+						<b>Attribution of Intellectual Property Rights:</b> All intellectual property (IP) rights remain with the participants. Code shared or submitted during the challenge does not transfer IP rights to the organizers. Participants are encouraged to include a suitable license if they make it publicly available.
+					</li>
+					
+					<li style="font-size: 20px;">
+						<b>Fair Competition Guarantee:</b> To maintain a fair and equitable environment for all participants, we will ensure that no participating team will have any conflict of interest with any of the challenge organizers. Any team involved in a conflict of interest will be disqualified immediately.
+					</li>
+					
+					<li style="font-size: 20px;">
+						<b>Organizer's Interpretation:</b> The organizer reserves the right of final interpretation. In cases of special circumstances, the organizer will coordinate the interpretation.
+					</li>
+				</ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+ <!--Key Dates Section -->
+ <section id="Registration">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Registration</h2>
+                <!-- <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3--> 
+            </div>
+        </div>
+        <div class="row text-justify">
+            <div class="col-md-12" >
+        		<p class="large text-muted">
+					The rankings of our challenge are based on the CodaLab Leaderboard, so entrants will need to register on Codalab
+					using the email provided on the EULA or the email that sends the EULA in order for entrants to upload their results and
+					view the rankings. We will provide the CodaLab link when the challenge is released.
+				</p>
+            </div>
+        </div>
+    </div>
+</section> 
+
+
+
+    <!-- Baseline System Section -->
+
+    <section id="Baseline System"  class="bg-mid-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Baseline System</h2>
+                </div>
+            </div>
+			
+			<p class="large text-muted">
+			    <b>Baseline paper:</b> <a href="xxxx"> xxxxx</a>
+			    <br>
+			    <b>Baseline code:</b> <a href="xxxxx">xxxx </a>
+			    <br>
+			    <b>Contact email:</b> <a href="xxxxx">xxxxx</a>
+			</p>
+        </div>
+    </section>
+	
+	
+	<!--Key Dates Section -->
+	 <section id="Paper Submission">
+	    <div class="container">
+	        <div class="row">
+	            <div class="col-lg-12 text-center">
+	                <h2 class="section-heading">Paper Submission</h2>
+	                <!-- <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3--> 
+	            </div>
+	        </div>
+	        <div class="row text-justify">
+	            <div class="col-md-12" >
+	        		<p class="large text-muted">
+						According to the requirements of the ICASSP 2025 Grand Challenge, the challenge organizers will invite the top 5 submissions to submit 2-page papers and present at the ICASSP 2025 conference (accepted papers will be in the ICASSP proceedings, the review process is coordinated by the challenge organizers and the SPGC chairs).
+						All 2-page proceedings papers should be covered by an ICASSP registration and should be presented in person at the conference. The teams that present their work at ICASSP in person are also invited to submit a full paper about their work to OJ-SP. A challenge special session will be held during the ICASSP 2025 conference in Hyderabad, India during 6-11 April 2025. This session will include an overview by the challenge organizers (including the announcement of winners), followed by the paper presentations (oral or poster) of the top-5 participants, followed by a panel or open discussion.
+						In addition, authors may post their preprints on arXiv.org.
+						This does not count as prior publication.
+						If the copyright was transferred to IEEE before posting, include the following statement: “© 20XX IEEE. Personal use of this material is permitted.
+					</p>
+	            </div>
+	        </div>
+	    </div>
+	</section> 
+	
+
+<!-- Paper Submission System Section -->
+
+    <section id="Timeline"  class="bg-mid-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Timeline</h2>
+                </div>
+            </div>
+			
+			<p class="large text-muted">
+			    <b>July 26th, 2024:</b> Registration opens, and the release of the training set, validation set, and code.
+			    <br>
+			    <b>October 10th, 2024:</b> Release of test set.
+			    <br>
+				<b>November 9th, 2024:</b> Deadline for submitting results for both tasks. 
+				<br>
+				<b>November 23rd, 2024:</b> Result announced. 
+				<br>
+				<b>December 9th, 2024:</b> ICASSP 2025 grand challenge 2-page paper deadline (top 5 teams only). 
+				<br>
+				<b>December 30th, 2024:</b> ICASSP 2025 grand challenge 2-page paper acceptance notification.
+				<br>
+				<b>January 13th, 2025:</b> ICASSP 2025 grand challenge 2-page camera-ready deadline.
+				<br>
+			</p>
+        </div>
+    </section>
+
+
+    <!-- Organization Section -->
+    <section id="organization">
+
+            <div class="row">
+                <div class="col-lg-12 text-center" style="padding-bottom: 20px;">
+                    <h2 class="section-heading">ORGANISERS</h2>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-1">
+                        &nbsp;
+                    </div>
+
+                    
+                    <div class="col-sm-2">
+                        <div class="team-member">
+                            <img src="img/liurui.jpg" class="img-responsive img-circle" alt="" width="200" height="300">
+                            <h4><a href="https://www.au.tsinghua.edu.cn/info/1080/3219.htm">Rui Liu</a></h4>
+                            <p class="text-muted"> Inner Mongolia University </p>
+                        </div>
+                    </div>
+
+                    
+
+                    <div class="col-sm-2">
+                        &nbsp;
+                    </div>
+					
+                    <div class="col-sm-2">
+                        <div class="team-member">
+                            <img src="xxx" class="img-responsive img-circle" alt="" width="200" height="300">
+                            <h4><a href="https://www.au.tsinghua.edu.cn/info/1080/3219.htm">Xiaofen Xing</a></h4>
+                            <p class="text-muted"> xxx单位 </p>
+                        </div>
+                    </div>
+
+					
+					
+                    
+
+                    <div class="col-sm-2">
+                        &nbsp;
+                    </div>
+
+                   <div class="col-sm-2">
+                       <div class="team-member">
+                           <img src="img/lianzheng.jpg" class="img-responsive img-circle" alt="" width="200" height="300">
+                           <h4><a href="https://www.au.tsinghua.edu.cn/info/1080/3219.htm">Zheng Lian</a></h4>
+                           <p class="text-muted"> xxx单位 </p>
+                       </div>
+                   </div>
+
+                  </div>
+
+              </div>
+
+                
+			<div class="container">
+			    <div class="row">
+			        <div class="col-sm-1">
+			            &nbsp;
+			        </div>
+			
+			        
+			        <div class="col-sm-2">
+			            <div class="team-member">
+			                <img src="xxx" class="img-responsive img-circle" alt="" width="200" height="300">
+			                <h4><a href="https://www.au.tsinghua.edu.cn/info/1080/3219.htm">Haizhou Li</a></h4>
+			                <p class="text-muted">xxx </p>
+			            </div>
+			        </div>
+			
+			        
+			
+			        <div class="col-sm-2">
+			            &nbsp;
+			        </div>
+					
+			        <div class="col-sm-2">
+			            <div class="team-member">
+			                <img src="img/Björn W. Schuller.jpg" class="img-responsive img-circle" alt="" width="200" height="300">
+			                <h4><a href="https://www.au.tsinghua.edu.cn/info/1080/3219.htm">Bj ̈orn W. Schuller</a></h4>
+			                <p class="text-muted"> xxx单位 </p>
+			            </div>
+			        </div>
+			
+					
+					
+			        
+			
+			        <div class="col-sm-2">
+			            &nbsp;
+			        </div>
+			
+			       <div class="col-sm-2">
+			           <div class="team-member">
+			               <img src="xxx" class="img-responsive img-circle" alt="" width="200" height="300">
+			               <h4><a href="https://www.au.tsinghua.edu.cn/info/1080/3219.htm">Inner Mongolia University </a></h4>
+			               <p class="text-muted"> xxx单位 </p>
+			           </div>
+			       </div>
+			
+			      </div>
+			
+			  </div>	
+        </div>
+		
+		    
+       
+    </section>
+
+
+
+
+    <!-- jQuery -->
+    <script src="./js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="./js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="./js/jquery.easing.min.js"></script>
+    <script src="./js/classie.js"></script>
+    <script src="./js/cbpAnimatedHeader.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="./js/contact_me.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="./js/agency.js"></script>
+
+
+
+
+</body></html>
