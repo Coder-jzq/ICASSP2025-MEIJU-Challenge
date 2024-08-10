@@ -336,8 +336,9 @@ header .intro-text .intro-heading {
 
 header_3 {
     height:600px;
-    background-image: url(../img/mer2024-2.jpg);
+    background-image: url(../img/MEIJU-v7.png);
     background-repeat: no-repeat;
+	background-size: 100% 100%;
     background-position: center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -396,6 +397,15 @@ header_3 .intro-text .intro-heading {
         font-size: 80px;
         line-height: 40px;
     }
+	
+	header_3 .intro-heading-large-2{
+	    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	    text-transform: uppercase;
+	    font-weight: 700;
+	    font-size: 40px;
+	    line-height: 80px;
+	}
+	
     header_3 .intro-heading-welcome{
         font-family: Brush Script MT, Brush Script Std, cursive;
         font-weight: 100;
